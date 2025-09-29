@@ -6,7 +6,4 @@ async function getUser( ) {
   console.log(data);
   document.querySelector("#output").textContent = `Your Name is ${data.name}`
   document.querySelector("#output1").textContent = `You have  ${data.public_repos} public repos `
-  const btn = document.createElement(button);
-  btn.textContent =" find repos";
-  document.querySelector('#output2').appendChild(btn);
 }
